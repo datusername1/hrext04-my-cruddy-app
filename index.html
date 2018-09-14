@@ -8,17 +8,37 @@
             src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
             crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    
 
   </head>
   <body>
 
-  <input type="text" class="user-input-title" placeholder="Enter the Title">
-  <textarea class="user-input-body" placeholder="Enter the body of text"></textarea>
+    <h1>Todo List</h1>
+    <div align='center'>
+      <button id='displayTodos'>Display Todo</button>
+      <button id='toggleAll'>Toggle Complete</button>
+    </div>
 
-  <button class="add-text-btn">add text</button>
-  <button class="del-text-btn">delete text</button>
+    <div align="center">
+      <button id='addTodo'>Add Todo</button>
+      <input id='addTodoText' placeholder='Enter a Todo' type='text'> 
+    </div>
 
-  <div class="display"></div>
+    <ul id='uli'>
+      <!--Li is getting append into here -->
+    </ul>
+
+    <div>
+      <button id='toggleComplete'>Completed</button>
+      <input id='toggleCompletedPos' type='number' placeholder="Enter item #">
+    </div>
+
+     <div>
+      <button id='changeTodo'>Change Todo</button>
+      <input id='changeTodoPosition' type="number" placeholder="Enter item #">
+      <input id='changeTodoText' type="text" placeholder="update">
+    </div>
+
+    <script src="app.js"></script>
   </body>
 </html>

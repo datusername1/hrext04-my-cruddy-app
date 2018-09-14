@@ -85,7 +85,7 @@
     a. Maybe there is a library that will be able to provide some additional function that I can pass thru jquery and JS to create this functionality. 
     b. This will probably be spent the least time on after finishing the other ideas and implementations 
     c. This should be a separate button that the user will use. 
-    d. Will possible be the longest. 
+    d. Will possible  be the longest. 
 
   2. Timestamp? Necessary? Possibly not, but can try and set the time so we know when how long ago the ToDo was created. (6)
     a. Provide an idea to the user how long ago it was created: maybe use the date? or created by? Already done it w/ twittler.
